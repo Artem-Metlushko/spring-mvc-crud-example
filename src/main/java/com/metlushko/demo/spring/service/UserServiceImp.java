@@ -1,13 +1,12 @@
-package com.howtodoinjava.demo.spring.service;
+package com.metlushko.demo.spring.service;
 
 import java.util.List;
 
+import com.metlushko.demo.spring.dao.UserDao;
+import com.metlushko.demo.spring.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import com.howtodoinjava.demo.spring.dao.UserDao;
-import com.howtodoinjava.demo.spring.model.User;
 
 @Service
 public class UserServiceImp implements UserService {

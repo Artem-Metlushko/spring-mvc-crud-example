@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.spring.model;
+package com.metlushko.demo.spring.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

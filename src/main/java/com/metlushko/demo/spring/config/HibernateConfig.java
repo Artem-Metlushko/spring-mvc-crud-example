@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.spring.config;
+package com.metlushko.demo.spring.config;
 
 import java.util.Map;
 import java.util.Properties;

@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.spring.config;
+package com.metlushko.demo.spring.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;

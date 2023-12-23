@@ -1,7 +1,9 @@
-package com.howtodoinjava.demo.spring.controller;
+package com.metlushko.demo.spring.controller;
 
 import java.util.Locale;
 
+import com.metlushko.demo.spring.model.User;
+import com.metlushko.demo.spring.service.UserService;
 import jakarta.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +13,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-
-import com.howtodoinjava.demo.spring.model.User;
-import com.howtodoinjava.demo.spring.service.UserService;
 
 @Controller
 public class UserController {

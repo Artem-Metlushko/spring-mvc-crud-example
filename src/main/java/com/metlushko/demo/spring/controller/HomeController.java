@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.spring.controller;
+package com.metlushko.demo.spring.controller;
 
 import java.util.Locale;
 import org.springframework.stereotype.Controller;

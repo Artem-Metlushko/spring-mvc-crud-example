@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.spring.config;
+package com.metlushko.demo.spring.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
