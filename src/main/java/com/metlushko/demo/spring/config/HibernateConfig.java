@@ -12,13 +12,13 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScans(value = {@ComponentScan("com.howtodoinjava.demo.spring")})
+@ComponentScans(value = {@ComponentScan("com.metlushko.demo.spring")})
 public class HibernateConfig {
 
   @Bean
   public LocalSessionFactoryBean getSessionFactory() {
     LocalSessionFactoryBean factoryBean = new LocalSessionFactoryBean();
-    factoryBean.setPackagesToScan("com.howtodoinjava.demo.spring.model");
+    factoryBean.setPackagesToScan("com.metlushko.demo.spring.model");
     /*factoryBean.setConfigLocation(context.getResource("classpath:hibernate.cfg.xml"));*/
     Properties properties = new Properties();
 

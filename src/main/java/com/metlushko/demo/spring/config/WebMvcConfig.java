@@ -17,7 +17,7 @@ import org.springframework.web.servlet.view.groovy.GroovyMarkupConfigurer;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.howtodoinjava.demo.spring"})
+@ComponentScan(basePackages = {"com.metlushko.demo.spring"})
 @PropertySource(value = "classpath:application.properties")
 public class WebMvcConfig implements WebMvcConfigurer {
 
